@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap');
+body{
+    background:rgb(30, 30, 34);
+}
+.re{
+    background:rgb(37, 56, 92);
+}
+h2{
+    color:rgb(235, 214, 214);
+    font-size: 20px;
+}
+h4{
+    font-weight: 600;
+}
+.mo{
+    background: rgb(45, 45, 49);
+}
+.ic{
+    color:white;
+}
+.bt{
+    background: rgb(37, 56, 92);
+}
+.ic1{
+    color:rgb(7, 51, 133);
+}
