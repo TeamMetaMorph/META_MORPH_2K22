@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body {
+  background: #0a2129;
+}
+.re {
+  border-radius: 30px;
+  font-family: montserrat, 'sans-serif';
+  color: black;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  /* box-shadow: 2px 2px 5px #bebebe, -5px -5px 10px #ffffff; */
+  background: white;
+}
+
+h4 {
+  font-weight: 600;
+}
+.mo {
+  background: #0a2129;
+}
+.ic {
+  font-family: 'montserrat';
+  font-weight: lighter;
+  color: white;
+}
+.bt {
+  background: red;
+}
+.ic1 {
+  color: rgb(7, 51, 133);
+}
+.simplebar-wrapper {
+  background: #0a2129;
+  color: #f0f0f0;
+}
+.simplebar-content {
+  color: #f0f0f0;
+}

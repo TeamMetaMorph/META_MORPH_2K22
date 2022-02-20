@@ -1,6 +1,3 @@
-import { Icon } from '@iconify/react';
-import bugFilled from '@iconify/icons-ant-design/bug-filled';
-// material
 import { alpha, styled } from '@mui/material/styles';
 import { Card, Typography } from '@mui/material';
 // utils
@@ -12,9 +9,7 @@ const RootStyle = styled(Card)(({ theme }) => ({
   boxShadow: 'none',
   textAlign: 'center',
   padding: theme.spacing(5, 0),
-  height: theme.spacing(27),
-  color: theme.palette.error.darker,
-  backgroundColor: theme.palette.error.lighter
+  height: theme.spacing(27)
 }));
 
 const IconWrapperStyle = styled('div')(({ theme }) => ({
@@ -26,21 +21,15 @@ const IconWrapperStyle = styled('div')(({ theme }) => ({
   height: theme.spacing(8),
   justifyContent: 'center',
   marginBottom: theme.spacing(3),
-  color: theme.palette.error.dark,
-  backgroundImage: `linear-gradient(135deg, ${alpha(theme.palette.error.dark, 0)} 0%, ${alpha(
-    theme.palette.error.dark,
-    0.24
-  )} 100%)`
+  color: theme.palette.primary.dark,
+  backgroundImage: 'linear-gradient(to top, #cc208e 0%, #6713d2 100%)'
 }));
 
 // ----------------------------------------------------------------------
-
-const TOTAL = 234;
-
-export default function TotalMembers() {
+export default function Projects() {
   return (
     <RootStyle className="re">
-      <h2 style={{ marginTop: 48 }}>Total Members</h2>
+      <h2 style={{ marginTop: 48 }}>Projects</h2>
     </RootStyle>
   );
 }
