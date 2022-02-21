@@ -93,7 +93,7 @@ function renderContent(notification) {
 
   if (notification.type === 'order_placed') {
     return {
-      avatar: <img alt={notification.title} src="/static/icons/ic_notification_package.svg" />,
+      avatar: <img alt={notification.title} src="/static/icons/ic_notiication_package.svg" />,
       title
     };
   }

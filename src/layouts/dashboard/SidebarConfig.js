@@ -9,7 +9,7 @@ import alertTriangleFill from '@iconify/icons-eva/alert-triangle-fill';
 
 // ----------------------------------------------------------------------
 
-const getIcon = (name) => <Icon icon={name} width={22} height={22} />;
+const getIcon = (name) => <Icon icon={name} width={22} height={22} style={{ color: '#7F00FF' }} />;
 
 const sidebarConfig = [
   {
@@ -29,26 +29,23 @@ const sidebarConfig = [
   },
   {
     title: 'Projects',
-    path: '/dashboard/blog',
+    path: '/404',
     icon: getIcon(fileTextFill)
   },
-  {
-    title: 'Workshop',
-    path: '/dashboard/blog',
-    icon: getIcon(fileTextFill)
-  },
+
   {
     title: 'login',
     path: '/login',
     icon: getIcon(lockFill)
   },
   {
-    title: 'register',
-    path: '/register',
+    title: 'Workshop',
+    path: '/404',
     icon: getIcon(personAddFill)
   },
+
   {
-    title: 'Not found',
+    title: 'Events',
     path: '/404',
     icon: getIcon(alertTriangleFill)
   }

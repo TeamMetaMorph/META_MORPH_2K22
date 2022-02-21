@@ -36,3 +36,28 @@ h4 {
 .simplebar-content {
   color: #f0f0f0;
 }
+.css-dxfs78 {
+  background: #0a2129;
+}
+.css-x858a4 {
+  /* display: none; */
+}
+.css-16dqz1z-MuiButtonBase-root-MuiListItemButton-root {
+  background: white;
+}
+.MuiListItemButton-root .active {
+  background: white;
+}
+.MuiListItemButton-root:hover {
+  background: white;
+}
+.css-vt7cuc-MuiListItemText-root {
+  /* color: black;
+   */
+  color: black;
+  font-weight: bolder;
+}
+/* .css-vt7cuc-MuiListItemText-root */
+.css-16dqz1z-MuiButtonBase-root-MuiListItemButton-root:before {
+  display: none;
+}
